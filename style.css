@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.imc_container,
+.resultado_container {
+    width: 45%;
+}
+
+.imc_txt,
+.resultado_txt {
+    list-style-type: none;
+    padding: 0;
+    font-weight: 700;
+    text-align: left;
+}
+
+.input_container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.peso,
+.altura {
+    margin-bottom: 10px;
+}
+
+.peso label,
+.altura label {
+    font-weight: bold;
+}
+
+.button_click {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 80px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: auto;
+}
